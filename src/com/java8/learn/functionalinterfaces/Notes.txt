@@ -1,0 +1,12 @@
+What is a Functional Interface?
+ The interfaces having a single abstract method are called functional interfaces.
+
+Functional Interfaces introduced in java8:
+    - Consumer -> BiConsumer
+    - Predicate -> BiPredicate
+    - Function -> BiFunction, UnaryOperator, BinaryOperator
+
+Function
+- Functions can be chained.
+- The Function interface, andThen executes the method and then the parameter function.
+  compose executes the parameter function first and after that the caller method.

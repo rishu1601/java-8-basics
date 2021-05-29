@@ -1,0 +1,7 @@
+- Simplify the functional Interface.
+- Refer a method in a class.
+- Syntax -> ClassName::instance-method || ClassName::static-method || Instance::method
+
+Method reference is not applicable when you have some logic inside the function.
+
+** Constructor reference can only be used in context of functional interfaces.

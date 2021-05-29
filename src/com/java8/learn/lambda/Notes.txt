@@ -1,0 +1,17 @@
+What is Lambda Expression?
+ Lambda is an Anonymous function.
+
+Some features of Lambda.
+ Lambdas are not tied to any class.
+ Lambdas can also be assigned to variable and passed around.
+
+Lambda Expression
+ () -> {}
+ where () - input parameters.
+       {} - Lambda body.
+
+Usages of Lambdas:
+ - Used to implement Functional Interfaces.
+   Single Abstract Method Interfaces.
+   Eg. Comparator, Runnable.
+   Lambda is smart enough to figure out the Data Type
